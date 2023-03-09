@@ -1,0 +1,215 @@
+header{
+    background-color: #d9d9d9;
+}
+
+.header-png{
+    object-fit: fill;
+    max-height: 50%;
+    max-width: 100%;
+}
+
+.cta{
+    color: black;
+    font-size: 30px;
+    text-decoration: dashed;
+    background-color: #637378;
+    border-radius: 50%;
+}
+
+.cta-bottom{
+    color: black;
+    font-size: 30px;
+    text-decoration: dashed;
+    background-color: #637378;
+    border-radius: 50%;
+}
+
+header ul li{
+    display: inline-block;
+}
+
+.middle {
+    background-color: #d9d9d9;
+}
+
+.end-line {
+    background-color: #d9d9d9;
+}
+
+
+main section ul li{
+    display: inline-block;
+}
+
+footer{
+    text-align: center;
+}
+
+.logo-aboutus{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.about-text{
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 11%;
+}
+
+.about-headline{
+    color: black;
+    font-size: 40px;
+    margin-left: 21%;
+    
+}
+
+.jackets-body {
+    background-color: #637378;
+}
+
+
+.thanku{
+    color: black;
+    font-size: 30px;
+    background-color: #fff;
+}
+
+.shopping{
+    color: black;
+    font-size: 30px;
+    background-color: #a1a1a1;
+    text-decoration: dashed;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 300px; 
+    max-height: 200px;
+  
+}
+
+.Jacket1-png{
+    max-width: 200px;
+    background-color: #fff;
+
+}
+
+.Jacket1-text{
+
+}
+
+.Jacket2-png{
+    max-width: 200px;
+    background-color: #fff;
+}
+
+.Jacket2-text{
+
+}
+
+.Jacket3-png{
+    max-width: 200px;
+    background-color: #fff;
+}
+
+.Jacket3-text{
+    display: block;
+}
+
+.Jacket4-png{
+    max-width: 200px;
+    background-color: #fff;
+}
+
+.Jacket5-text{
+
+}
+
+.Jacket5-png{
+    max-width: 200px;
+    background-color: #fff;
+}
+
+.Jacket6-png{
+    max-width: 200px;
+    background-color: #fff;
+}
+
+.Jacket6-text{
+    max-width: 200px;
+}
+
+.Jacket7-png{
+    max-width: 200px;
+    background-color: #fff;
+}
+
+.Jacket7-text{
+    
+}
+
+.jacketpage{
+    max-width: 200px;
+}
+
+.Addtocart{
+    color: black;
+    background-color: #fff;
+    text-decoration: dashed;
+    font-size: xx-large;
+    
+}
+
+.productdetails{
+}
+
+.cta-submit{
+    color: black;
+    background: #A6A3A3;
+    display: inline;
+    font-size: larger;
+    border-radius: 50%;
+}
+
+input [type="text"] {
+    width: max-content;
+}
+
+.cta-checkout{
+    color: black;
+    background-color: #fff;
+    text-decoration: dashed;
+    font-size: 40px;
+    border-style: groove;
+    border-color: black;
+}
+
+.jacket{
+    padding: 10px;
+    margin: 10px;
+    flex: 1;
+}
+
+
+.containerone{
+    display: flex;
+    flex-direction:  row;
+}
+
+.containertwo{
+    display: flex;
+    flex-direction:  row;
+}
+
+.containerthree{
+    display: flex;
+    flex-direction:  row;
+}
