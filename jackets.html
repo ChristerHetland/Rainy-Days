@@ -12,30 +12,66 @@
     <header>
         <img src="images/header.jpg" alt="Header" class="header-png">
         <img src="images/RainyDays_Logo.png" alt="Rainydayslogo" class="logo"/>
-        <ul>
-            <li><a href="index.html" class="cta">Home</a></li>
-            <li><a href="products.html" class="cta">Products</a></li>
+        <img class="shopping-cart" src="images/shopping-cart.png" alt="shopping-cart">
+        <img class="heart-icon" src="images/heart-icon.png" alt="heart-icon">
+        <ul class="cta">
+            <li><a href="index.html" class="cta-home">Home</a></li>
+            <li><a href="products.html" class="cta-products">Products</a></li>
         </ul>
     </header>
     <main>
-        <section class="middle">
+        <hr class="line">
+        <section class="jacket-option">
+            <label for="size" class="size">Size</label>
+            <select name="size" class="size">
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+              <option value="XL">XL</option>
+            </select>
+            <label for="quantity" class="quantity">Quantity</label>
+            <select name="quantity" class="quantity">
+                <option value="1">1</option>
+                <option value="1">2</option>
+                <option value="1">3</option>
+                <option value="1">4</option>
+                <option value="1">5</option>
+                <option value="1">6</option>
+            </select>  
+            <label for="Color" class="color">Color</label>
+            <select name="color" class="color">
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="grey">Grey</option>
+                <option value="orange">Orange</option>
+                <option value="green">Green</option>
+            </select>
+        </section> 
+        <section>
             <div>
-                <img src="images/RainyDays_Jacket1.png" class="jacketpage" alt="Jacket1">
+                <img src="images/RainyDays_Jacket1.png" class="Jacket1-png" alt="Jacket1-png">
                 <p>Lorem ipsum dolor sit amet consectetur. Volutpat tincidunt pulvinar eget ac arcu enim dolor viverra.</p>
                 <p>Price 699,-</p>
                 <a href="cart.html" class="Addtocart">Add to cart</a>
-            </div>      
+            </div>     
             <div>
-                <h2>Product details</h2>
+                <h2 class="h2productdetails">Product details</h2>
                 <p class="productdetails">Lorem ipsum dolor sit amet consectetur. Cursus pellentesque maecenas facilisi egestas massa id a tellus consequat. Eget ornare elementum nibh mattis magnis. Sagittis aliquet morbi consequat ac eu a diam habitasse lacus. Pulvinar pellentesque eu in turpis eu. Arcu aenean tellus scelerisque pellentesque mattis pulvinar. Phasellus a quis ultricies pellentesque lacus duis amet id integer. Purus purus commodo aliquet placerat rhoncus. Mauris sed accumsan dui blandit id pellentesque euismod. Morbi tempor magna fames at. Aliquet cras ut etiam malesuada eget montes sit facilisis enim. Dolor nibh dolor habitant tellus nunc. At enim id morbi ac. In eget sodales cursus mauris purus. Diam iaculis vivamus neque ultrices id quisque.</p>
             </div>
             </section>
             <section class="end-line">
+                <hr class="line">
                 <img src="images/RainyDays_Logo.png" alt="Rainydayslogo" class="logo"/>
+            <div>
+                <h1 class="Follow-us">Follow us</h1>
+                <img src="images/facebook.png" alt="Facebook" class="facebook">
+                <img src="images/twitter.png" alt="Twitter" class="twitter">
+                <img src="images/instagram.png" alt="Instagram" class="instagram">
+            </div>     
                 <ul>
-                    <li><a href="aboutus.html" class="cta-bottom">About us</a></li>
-                    <li><a href="contact.html" class="cta-bottom">Contact</a></li>
-                </ul>             
+                     <li><a href="aboutus.html" class="cta-bottom">About us</a></li>
+                     <li><a href="contact.html" class="cta-bottom">Contact</a></li>
+                </ul>
             </section>
         </main>
         <footer>Copyright &copy;</footer>

@@ -12,35 +12,64 @@
     <header>
         <img src="images/header.jpg" alt="Header" class="header-png">
         <img src="images/RainyDays_Logo.png" alt="Rainydayslogo" class="logo"/>
-        <ul>
-            <li><a href="index.html" class="cta">Home</a></li>
-            <li><a href="products.html" class="cta">Products</a></li>
+        <img class="shopping-cart" src="images/shopping-cart.png" alt="shopping-cart">
+        <img class="heart-icon" src="images/heart-icon.png" alt="heart-icon">
+        <ul class="cta">
+            <li><a href="index.html" class="cta-home">Home</a></li>
+            <li><a href="products.html" class="cta-products">Products</a></li>
         </ul>
     </header>
-    <main class="middle">
-        <h2>Checkout</h2>
+    <main>
+        <hr class="line">
+        <h2 class="h2-checkout">Checkout</h2>
         <section>
-            <h3>Summary</h3>
-            <img src="images/RainyDays_Jacket1.png" alt="Jacket1">
+            <h3 class="h3-summary">Summary</h3>
+            <div class="summary">
+            <img src="images/RainyDays_Jacket1.png" class="Jacket1-png" alt="Jacket">
             <p>Size: M</p>
             <p>Color: Orange/Grey</p>
             <p>Qty: 1</p>
             <p>Price: 699,-</p>
+        </div>
         </section>
+        <section class="fillin">
+            <form>
+                <h4>Adress:</h4>
+                <input type="text" name="adress">
+            </form>
+            <form>
+                <h4>Email:</h4>
+                <input type="text" name="email">
+            </form>
+            <form>
+                <h4>Phone number:</h4>
+                <input type="text" name="phone-number">
+            </form>
+            <form>
+                <h4>Full Name:</h4>
+                <input type="text" name="full-name">
+            </form>
         <section>
-            <p>Adress:</p>
-            <p>Email:</p>
-            <p>Phone number:</p>
-            <p>Full name:</p>
-            <p>Delivery adress:</p>
-            <a href="checkout-complete.html">Place order</a>
+            <form>
+                <h4>Delivery Adress:</h4>
+                <input type="text" name="delivery-adress">
+            </form>
+        </section>
+            <a href="checkout-complete.html" class="cta-placeorder">Place order<a>
         </section>
         <section class="end-line">
+            <hr class="line">
             <img src="images/RainyDays_Logo.png" alt="Rainydayslogo" class="logo"/>
-             <ul>
+        <div>
+            <h1 class="Follow-us">Follow us</h1>
+            <img src="images/facebook.png" alt="Facebook" class="facebook">
+            <img src="images/twitter.png" alt="Twitter" class="twitter">
+            <img src="images/instagram.png" alt="Instagram" class="instagram">  
+        </div>   
+            <ul>
                  <li><a href="aboutus.html" class="cta-bottom">About us</a></li>
                  <li><a href="contact.html" class="cta-bottom">Contact</a></li>
-             </ul>
+            </ul>
         </section>
         </main>
         <footer>Copyright &copy;</footer>

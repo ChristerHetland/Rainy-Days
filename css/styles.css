@@ -2,6 +2,27 @@ header{
     background-color: #d9d9d9;
 }
 
+.line{
+    background-color: #745F5F;
+    border-style: solid;
+    width: 100%;
+    height: 20px;
+}
+
+.search{
+    display: inline;
+}
+
+.heart-icon{
+    max-width: 30px;
+    float: right;
+}
+
+.shopping-cart{
+    max-width: 70px;
+    float: right;
+}
+
 .header-png{
     object-fit: fill;
     max-height: 50%;
@@ -9,6 +30,18 @@ header{
 }
 
 .cta{
+    float: right;
+}
+
+.cta-home{
+    color: black;
+    font-size: 30px;
+    text-decoration: dashed;
+    background-color: #637378;
+    border-radius: 50%;
+}
+
+.cta-products{
     color: black;
     font-size: 30px;
     text-decoration: dashed;
@@ -24,18 +57,32 @@ header{
     border-radius: 50%;
 }
 
+.Follow-us{
+    
+}
+
+.instagram{
+    max-width: 50px;
+    float: right;
+}
+
+.twitter{
+    max-width: 50px;
+    float: right;
+}
+
+.facebook{
+    max-width: 50px;
+    float: right;
+}
+
 header ul li{
     display: inline-block;
 }
 
-.middle {
+body{
     background-color: #d9d9d9;
 }
-
-.end-line {
-    background-color: #d9d9d9;
-}
-
 
 main section ul li{
     display: inline-block;
@@ -65,18 +112,20 @@ footer{
     color: black;
     font-size: 40px;
     margin-left: 21%;
-    
 }
 
 .jackets-body {
     background-color: #637378;
 }
 
-
 .thanku{
     color: black;
     font-size: 30px;
     background-color: #fff;
+    text-decoration: dashed;
+    border-radius: 20%;
+    border-style: solid;
+    border-bottom: 50px;
 }
 
 .shopping{
@@ -84,6 +133,8 @@ footer{
     font-size: 30px;
     background-color: #a1a1a1;
     text-decoration: dashed;
+    border-radius: 20%;
+    border-style: solid;
 }
 
 .logo{
@@ -93,67 +144,90 @@ footer{
     width: 50%;
     max-width: 300px; 
     max-height: 200px;
-  
 }
 
 .Jacket1-png{
     max-width: 200px;
     background-color: #fff;
-
+    border-style: solid;
+    border-color: black;
 }
 
 .Jacket1-text{
-
+    color: black;
+    text-decoration: none;
 }
 
 .Jacket2-png{
     max-width: 200px;
     background-color: #fff;
+    border-style: solid;
+    border-color: black;
 }
 
 .Jacket2-text{
-
+    color: black;
+    text-decoration: none;
 }
 
 .Jacket3-png{
     max-width: 200px;
     background-color: #fff;
+    border-style: solid;
+    border-color: black;
 }
 
 .Jacket3-text{
-    display: block;
+    color: black;
+    text-decoration: none;
 }
 
 .Jacket4-png{
     max-width: 200px;
     background-color: #fff;
+    border-style: solid;
+    border-color: black;
 }
 
-.Jacket5-text{
-
+.Jacket4-text{
+    color: black;
+    text-decoration: none;
 }
 
 .Jacket5-png{
     max-width: 200px;
     background-color: #fff;
+    border-style: solid;
+    border-color: black;
+}
+
+.Jacket5-text{
+    color: black;
+    text-decoration: none;
 }
 
 .Jacket6-png{
     max-width: 200px;
     background-color: #fff;
+    border-style: solid;
+    border-color: black;
 }
 
 .Jacket6-text{
-    max-width: 200px;
+    color: black;
+    text-decoration: none;
 }
 
 .Jacket7-png{
     max-width: 200px;
     background-color: #fff;
+    border-style: solid;
+    border-color: black;
 }
 
 .Jacket7-text{
-    
+    color: black;
+    text-decoration: none;
 }
 
 .jacketpage{
@@ -165,10 +239,18 @@ footer{
     background-color: #fff;
     text-decoration: dashed;
     font-size: xx-large;
-    
+}
+
+.h2productdetails{
+    padding-top: 5rem;
+    padding-right: 10rem;
+    padding-left: 5rem;
 }
 
 .productdetails{
+    padding-left: 5rem;
+    border-style: solid;
+    font-size: large;
 }
 
 .cta-submit{
@@ -183,21 +265,41 @@ input [type="text"] {
     width: max-content;
 }
 
-.cta-checkout{
+.h2-checkout{
+    color: black;
+    margin-left: 50%;
+}
+
+.summary{
+    border-style: solid;
+    width: fit-content;
+    margin-left: 10%;
+    float: left;
+}
+
+.h3-summary{
+    margin-left: 15%;
+}
+
+.cta-placeorder{
     color: black;
     background-color: #fff;
-    text-decoration: dashed;
-    font-size: 40px;
-    border-style: groove;
-    border-color: black;
+    text-decoration: dashed;    
+    font-size: 30px;
+    border-style: solid;
+    border-radius: 40%;
+    margin-left: 10%;
+}
+
+.fillin{
+    margin-left: 40%;
+    font-size: larger;
 }
 
 .jacket{
     padding: 10px;
     margin: 10px;
-    flex: 1;
 }
-
 
 .containerone{
     display: flex;
@@ -212,4 +314,60 @@ input [type="text"] {
 .containerthree{
     display: flex;
     flex-direction:  row;
+}
+
+.size{
+    float: right;
+    font-size: x-large;
+}
+
+.quantity{
+    float: right;
+    font-size: x-large;
+}
+
+.color{
+    float: right;
+    font-size: x-large;
+}
+
+.jacket-option{
+    display: grid;
+    grid-gap: 2rem;
+    float: right;
+    font-size: x-large;
+}
+
+.end-line{
+    margin-top: 10rem;
+}
+
+.cart-middle{
+    border: solid;
+}
+
+.cart-text{
+    margin-left: 15%; 
+}
+
+.cta-checkout{
+    color: black;
+    background-color: #fff;
+    text-decoration: dashed;
+    font-size: 40px;
+    border-style: groove;
+    border-color: black;
+}
+
+.cart-right{
+    font-size: larger;
+    margin-left: 80%;
+}
+
+.cart-jacket1-png{
+    max-width: 200px;
+    background-color: #fff;
+    border-style: solid;
+    border-color: black;
+    margin-left: 1%;
 }
