@@ -16,17 +16,21 @@ header{
 .heart-icon{
     max-width: 30px;
     float: right;
+    position: absolute;
+    top: 400px;
+    right: 100px;
 }
 
 .shopping-cart{
     max-width: 70px;
     float: right;
+    position: absolute;
+    top: 380px;
+    right: 30px;
 }
 
 .header-png{
-    object-fit: fill;
-    max-height: 50%;
-    max-width: 100%;
+    width: 100%;
 }
 
 .cta{
@@ -39,6 +43,9 @@ header{
     text-decoration: dashed;
     background-color: #637378;
     border-radius: 50%;
+    position: absolute;
+    right: 450px;
+    top: 400px;
 }
 
 .cta-products{
@@ -47,18 +54,171 @@ header{
     text-decoration: dashed;
     background-color: #637378;
     border-radius: 50%;
+    position: absolute;
+    right: 250px;
+    top: 400px;
 }
 
-.cta-bottom{
+.cta-aboutus-jackets{
     color: black;
     font-size: 30px;
     text-decoration: dashed;
     background-color: #637378;
     border-radius: 50%;
+    position: absolute;
+    top: 1300px;
 }
 
-.Follow-us{
-    
+.cta-contact-jackets{
+    color: black;
+    font-size: 30px;
+    text-decoration: dashed;
+    background-color: #637378;
+    border-radius: 50%;
+    position: absolute;
+    top: 1300px;
+    left: 300px;
+}
+
+.Follow-us-jackets{
+    position: absolute;
+    left: 1370px;
+    top: 1340px;
+}
+
+.cta-aboutus-cart{
+    color: black;
+    font-size: 30px;
+    text-decoration: dashed;
+    background-color: #637378;
+    border-radius: 50%;
+    position: absolute;
+    top: 1065px;
+}
+
+.cta-contact-cart{
+    color: black;
+    font-size: 30px;
+    text-decoration: dashed;
+    background-color: #637378;
+    border-radius: 50%;
+    position: absolute;
+    top: 1065px;
+    left: 300px;
+}
+
+.Follow-us-cart{
+    position: absolute;
+    left: 1370px;
+    top: 1115px;
+}
+
+.cta-aboutus-checkout{
+    color: black;
+    font-size: 30px;
+    text-decoration: dashed;
+    background-color: #637378;
+    border-radius: 50%;
+    position: absolute;
+    top: 1200px;
+}
+
+.cta-contact-checkout{
+    color: black;
+    font-size: 30px;
+    text-decoration: dashed;
+    background-color: #637378;
+    border-radius: 50%;
+    position: absolute;
+    top: 1200px;
+    left: 300px;
+}
+
+.Follow-us-checkout{
+    position: absolute;
+    left: 1370px;
+    top: 1245px;
+}
+
+.cta-aboutus-checkoutcomplete{
+    color: black;
+    font-size: 30px;
+    text-decoration: dashed;
+    background-color: #637378;
+    border-radius: 50%;
+    position: absolute;
+    top: 930px;
+}
+
+.cta-contact-checkoutcomplete{
+    color: black;
+    font-size: 30px;
+    text-decoration: dashed;
+    background-color: #637378;
+    border-radius: 50%;
+    position: absolute;
+    top: 930px;
+    left: 300px;
+}
+
+.Follow-us-checkoutcomplete{
+    position: absolute;
+    left: 1370px;
+    top: 990px;
+}
+
+.cta-aboutus-aboutus{
+    color: black;
+    font-size: 30px;
+    text-decoration: dashed;
+    background-color: #637378;
+    border-radius: 50%;
+    position: absolute;
+    top: 1290px;
+}
+
+.cta-contact-aboutus{
+    color: black;
+    font-size: 30px;
+    text-decoration: dashed;
+    background-color: #637378;
+    border-radius: 50%;
+    position: absolute;
+    top: 1290px;
+    left: 300px;
+}
+
+.Follow-us-aboutus{
+    position: absolute;
+    left: 1370px;
+    top: 1350px;
+}
+
+.cta-aboutus-contact{
+    color: black;
+    font-size: 30px;
+    text-decoration: dashed;
+    background-color: #637378;
+    border-radius: 50%;
+    position: absolute;
+    top: 1250px;
+}
+
+.cta-contact-contact{
+    color: black;
+    font-size: 30px;
+    text-decoration: dashed;
+    background-color: #637378;
+    border-radius: 50%;
+    position: absolute;
+    top: 1250px;
+    left: 300px;
+}
+
+.Follow-us-contact{
+    position: absolute;
+    left: 1370px;
+    top: 1300px;
 }
 
 .instagram{
@@ -163,11 +323,17 @@ footer{
     background-color: #fff;
     border-style: solid;
     border-color: black;
+    position: absolute;
+    left: 600px;
+    top: 550px;
 }
 
 .Jacket2-text{
     color: black;
     text-decoration: none;
+    position: absolute;
+    left: 600px;
+    top: 810px;
 }
 
 .Jacket3-png{
@@ -175,11 +341,17 @@ footer{
     background-color: #fff;
     border-style: solid;
     border-color: black;
+    position: absolute;
+    top: 550px;
+    right: 30px;
 }
 
 .Jacket3-text{
     color: black;
     text-decoration: none;
+    position: absolute;
+    top: 810px;
+    right: 30px;
 }
 
 .Jacket4-png{
@@ -199,11 +371,17 @@ footer{
     background-color: #fff;
     border-style: solid;
     border-color: black;
+    position: absolute;
+    top: 985px;
+    left: 600px;
 }
 
 .Jacket5-text{
     color: black;
     text-decoration: none;
+    position: absolute;
+    top: 1200px;
+    left: 600px;
 }
 
 .Jacket6-png{
@@ -211,11 +389,17 @@ footer{
     background-color: #fff;
     border-style: solid;
     border-color: black;
+    position: absolute;
+    top: 950px;
+    right: 30px;
 }
 
 .Jacket6-text{
     color: black;
     text-decoration: none;
+    position: absolute;
+    top: 1200px;
+    right: 30px;
 }
 
 .Jacket7-png{
@@ -239,18 +423,56 @@ footer{
     background-color: #fff;
     text-decoration: dashed;
     font-size: xx-large;
+    position: relative;
+    left: 350px;
+    top: 100px;
+}
+
+.jacket-option{
+    display: grid;
+    grid-gap: 2rem;
+    float: right;
+    font-size: x-large;
+}
+
+.Jacket1-png-jackets{
+    max-width: 200px;
+    background-color: #fff;
+    border-style: solid;
+    border-color: black;
+    position: relative;
+    top: 100px;
+    left: 60px;
+}
+
+.jackets-text{
+    position: absolute;
+    left: 400px;
+    bottom: 50px;
+    font-size: large;
+}
+
+.jackets-price{
+    position: absolute;
+    left: 400px;
+    bottom: 1px;
+    font-size: large;
 }
 
 .h2productdetails{
     padding-top: 5rem;
     padding-right: 10rem;
     padding-left: 5rem;
+    position: relative;
+    top: 100px;
 }
 
 .productdetails{
     padding-left: 5rem;
     border-style: solid;
     font-size: large;
+    position: relative;
+    top: 100px;
 }
 
 .cta-submit{
@@ -284,16 +506,41 @@ input [type="text"] {
 .cta-placeorder{
     color: black;
     background-color: #fff;
-    text-decoration: dashed;    
+    text-decoration: dashed;
+    text-align: center;   
     font-size: 30px;
     border-style: solid;
-    border-radius: 40%;
-    margin-left: 10%;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    top: 1000px;
+    left: 610px;
 }
 
 .fillin{
     margin-left: 40%;
     font-size: larger;
+}
+
+.fillin-input{
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 15px;
+    height: 22px;
+}
+
+.fillin-email{
+    position: absolute;
+    left: 1100px;
+    top: 620px;
+}
+
+.fillin-fullname{
+    position: absolute;
+    left: 1100px;
+    top: 720px;
 }
 
 .jacket{
@@ -331,23 +578,21 @@ input [type="text"] {
     font-size: x-large;
 }
 
-.jacket-option{
-    display: grid;
-    grid-gap: 2rem;
-    float: right;
-    font-size: x-large;
-}
-
 .end-line{
     margin-top: 10rem;
 }
 
 .cart-middle{
     border: solid;
+    position: relative;
+    top: 100px;
 }
 
 .cart-text{
-    margin-left: 15%; 
+    position: absolute;
+    left: 250px;
+    bottom: 100px;
+    font-size: large;
 }
 
 .cta-checkout{
@@ -357,11 +602,15 @@ input [type="text"] {
     font-size: 40px;
     border-style: groove;
     border-color: black;
+    
 }
 
 .cart-right{
-    font-size: larger;
-    margin-left: 80%;
+    font-size: x-large;
+    margin-left: 40%;
+    position: absolute;
+    left: 500px;
+    bottom: 70px;
 }
 
 .cart-jacket1-png{
@@ -369,5 +618,7 @@ input [type="text"] {
     background-color: #fff;
     border-style: solid;
     border-color: black;
-    margin-left: 1%;
+    position: relative;
+    left: 20px;
+    top: px;
 }
