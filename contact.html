@@ -10,13 +10,22 @@
 </head>
 <body>
     <header>
+        <section> 
+            <section>
+                <hr class="hamburger1">
+                <hr class="hamburger2">
+                <hr class="hamburger3">
+            </section>
+            <form class="search">
+                <input type="search" class="query" name="q"
+                placeholder="Search">
+                <button>Search</button>
+            </form>
+        </section> 
         <img src="images/Header1.jpg" alt="Header" class="header-png">
         <img src="images/RainyDays_Logo.png" alt="Rainydayslogo" class="logo"/>
         <img class="heart-icon" src="images/heart-icon.png" alt="heart-icon">
-        <a href="cart.html"> <img class="shopping-cart" src="images/shopping-cart.png" alt="shopping-cart">
-        <form>
-            <h4 class="search">Search</h4>
-            <input type="Search" name="Search">
+        <a href="cart.html"> <img class="shopping-cart" src="images/shopping-cart.png" alt="shopping-cart">  
         </form>
         <ul class="cta">
             <li><a href="index.html" class="cta-home">Home</a></li>
@@ -26,25 +35,25 @@
     <main>
         <section>
             <hr class="line">
-            <form>
-                <h4>First name:</h4>
-                <input type="text" name="firstname">
+            <form class="fillin-firstname">
+                <h3>First name:</h3>
+                <input class="fillin-contact" type="text" name="firstname">
+            </form>
+            <form class="fillin-lastname">
+                <h3>Last name:</h3>
+                <input class="fillin-contact" type="text" name="lastname">
+            </form>
+            <form class="fillin-email-contact">
+                <h3>Email:</h3>
+                <input class="fillin-contact" type="text" name="email">
+            </form>
+            <form class="fillin-phone">
+                <h3>Phone:</h3>
+                <input class="fillin-contact" type="text" name="phone">
             </form>
             <form>
-                <h4>Last name:</h4>
-                <input type="text" name="lastname">
-            </form>
-            <form>
-                <h4>Email:</h4>
-                <input type="text" name="email">
-            </form>
-            <form>
-                <h4>Phone:</h4>
-                <input type="text" name="phone">
-            </form>
-            <form>
-                <h4>Message:</h4>
-                <input class="message" type="text" name="message">
+                <h2>Message:</h2>
+                <textarea class="message" name="freeform" rows="4" cols="50"></textarea>
             </form>
           <h3 class="cta-submit">Submit</h3>
         </section>
