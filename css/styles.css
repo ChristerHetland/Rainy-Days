@@ -221,6 +221,33 @@ header{
     top: 1300px;
 }
 
+.Follow-us-products{
+    position: absolute;
+    left: 1370px;
+    top: 2020px;
+}
+
+.cta-contact-products{
+    color: black;
+    font-size: 30px;
+    text-decoration: dashed;
+    background-color: #637378;
+    border-radius: 50%;
+    position: absolute;
+    top: 1985px;
+    left: 300px;
+}
+
+.cta-aboutus-products{
+    color: black;
+    font-size: 30px;
+    text-decoration: dashed;
+    background-color: #637378;
+    border-radius: 50%;
+    position: absolute;
+    top: 1985px;
+}
+
 .instagram{
     max-width: 50px;
     float: right;
@@ -332,7 +359,7 @@ footer{
     border-color: black;
     position: absolute;
     left: 600px;
-    top: 550px;
+    top: 545px;
 }
 
 .Jacket2-text{
@@ -340,7 +367,13 @@ footer{
     text-decoration: none;
     position: absolute;
     left: 600px;
-    top: 810px;
+    top: 800px;
+}
+
+.Jacket2-price{
+    position: absolute;
+    left: 600px;
+    top: 845px;
 }
 
 .Jacket3-png{
@@ -357,8 +390,14 @@ footer{
     color: black;
     text-decoration: none;
     position: absolute;
-    top: 810px;
+    top: 800px;
     right: 30px;
+}
+
+.Jacket3-price{
+    position: absolute;
+    top: 845px;
+    right: 315px;
 }
 
 .Jacket4-png{
@@ -379,7 +418,7 @@ footer{
     border-style: solid;
     border-color: black;
     position: absolute;
-    top: 985px;
+    top: 980px;
     left: 600px;
 }
 
@@ -387,7 +426,13 @@ footer{
     color: black;
     text-decoration: none;
     position: absolute;
-    top: 1200px;
+    top: 1190px;
+    left: 600px;
+}
+
+.Jacket5-price{
+    position: absolute;
+    top: 1240px;
     left: 600px;
 }
 
@@ -405,8 +450,14 @@ footer{
     color: black;
     text-decoration: none;
     position: absolute;
-    top: 1200px;
+    top: 1190px;
     right: 30px;
+}
+
+.Jacket6-price{
+    position: absolute;
+    top: 1240px;
+    right: 315px;
 }
 
 .Jacket7-png{
