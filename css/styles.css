@@ -11,6 +11,49 @@ header{
 
 .search{
     display: inline;
+    position: absolute;
+    top: 440px;
+    left: 65px;
+}
+
+
+.rainydayslogo-index{
+    position: absolute;
+    bottom: 100px;
+    left: 300px;
+}
+
+.cta-aboutus-index{
+    color: black;
+    font-size: 40px;
+    text-decoration: dashed;
+    background-color: #637378;
+    border-radius: 50%;
+    position: absolute;
+    top: 700px;
+    left: 300px;
+}
+
+.cta-contact-index{
+    color: black;
+    font-size: 40px;
+    text-decoration: dashed;
+    background-color: #637378;
+    border-radius: 50%;
+    position: absolute;
+    top: 700px;
+    right: 300px;
+}
+
+.cta-products-index{
+    color: black;
+    font-size: 50px;
+    text-decoration: dashed;
+    background-color: #A7AD9C;
+    border-radius: 50%;
+    position: absolute;
+    top: 700px;
+    right: 710px;
 }
 
 .heart-icon{
@@ -110,7 +153,7 @@ header{
 .Follow-us-cart{
     position: absolute;
     left: 1370px;
-    top: 1110px;
+    top: 1090px;
 }
 
 .cta-aboutus-checkout{
@@ -359,7 +402,7 @@ footer{
     border-color: black;
     position: absolute;
     left: 600px;
-    top: 545px;
+    top: 525px;
 }
 
 .Jacket2-text{
@@ -367,13 +410,13 @@ footer{
     text-decoration: none;
     position: absolute;
     left: 600px;
-    top: 800px;
+    top: 785px;
 }
 
 .Jacket2-price{
     position: absolute;
     left: 600px;
-    top: 845px;
+    top: 835px;
 }
 
 .Jacket3-png{
@@ -382,7 +425,7 @@ footer{
     border-style: solid;
     border-color: black;
     position: absolute;
-    top: 550px;
+    top: 530px;
     right: 30px;
 }
 
@@ -390,13 +433,13 @@ footer{
     color: black;
     text-decoration: none;
     position: absolute;
-    top: 800px;
+    top: 785px;
     right: 30px;
 }
 
 .Jacket3-price{
     position: absolute;
-    top: 845px;
+    top: 835px;
     right: 315px;
 }
 
@@ -418,7 +461,7 @@ footer{
     border-style: solid;
     border-color: black;
     position: absolute;
-    top: 980px;
+    top: 960px;
     left: 600px;
 }
 
@@ -426,13 +469,13 @@ footer{
     color: black;
     text-decoration: none;
     position: absolute;
-    top: 1190px;
+    top: 1175px;
     left: 600px;
 }
 
 .Jacket5-price{
     position: absolute;
-    top: 1240px;
+    top: 1220px;
     left: 600px;
 }
 
@@ -442,7 +485,7 @@ footer{
     border-style: solid;
     border-color: black;
     position: absolute;
-    top: 950px;
+    top: 930px;
     right: 30px;
 }
 
@@ -450,13 +493,13 @@ footer{
     color: black;
     text-decoration: none;
     position: absolute;
-    top: 1190px;
+    top: 1175px;
     right: 30px;
 }
 
 .Jacket6-price{
     position: absolute;
-    top: 1240px;
+    top: 1220px;
     right: 315px;
 }
 
