@@ -109,7 +109,7 @@ header{
     background-color: #637378;
     border-radius: 50%;
     position: absolute;
-    top: 1300px;
+    top: 1355px;
 }
 
 .cta-contact-jackets{
@@ -119,14 +119,14 @@ header{
     background-color: #637378;
     border-radius: 50%;
     position: absolute;
-    top: 1300px;
+    top: 1355px;
     left: 300px;
 }
 
 .Follow-us-jackets{
     position: absolute;
     left: 1370px;
-    top: 1340px;
+    top: 1380px;
 }
 
 .cta-aboutus-cart{
@@ -136,7 +136,7 @@ header{
     background-color: #637378;
     border-radius: 50%;
     position: absolute;
-    top: 1065px;
+    top: 1120px;
 }
 
 .cta-contact-cart{
@@ -146,14 +146,14 @@ header{
     background-color: #637378;
     border-radius: 50%;
     position: absolute;
-    top: 1065px;
+    top: 1120px;
     left: 300px;
 }
 
 .Follow-us-cart{
     position: absolute;
     left: 1370px;
-    top: 1090px;
+    top: 1140px;
 }
 
 .cta-aboutus-checkout{
@@ -163,7 +163,7 @@ header{
     background-color: #637378;
     border-radius: 50%;
     position: absolute;
-    top: 1200px;
+    top: 1260px;
 }
 
 .cta-contact-checkout{
@@ -173,14 +173,14 @@ header{
     background-color: #637378;
     border-radius: 50%;
     position: absolute;
-    top: 1200px;
+    top: 1260px;
     left: 300px;
 }
 
 .Follow-us-checkout{
     position: absolute;
     left: 1370px;
-    top: 1245px;
+    top: 1290px;
 }
 
 .cta-aboutus-checkoutcomplete{
@@ -190,7 +190,7 @@ header{
     background-color: #637378;
     border-radius: 50%;
     position: absolute;
-    top: 985px;
+    top: 1040px;
 }
 
 .cta-contact-checkoutcomplete{
@@ -200,14 +200,14 @@ header{
     background-color: #637378;
     border-radius: 50%;
     position: absolute;
-    top: 985px;
+    top: 1040px;
     left: 300px;
 }
 
 .Follow-us-checkoutcomplete{
     position: absolute;
     left: 1370px;
-    top: 1030px;
+    top: 1065px;
 }
 
 .cta-aboutus-aboutus{
@@ -217,7 +217,7 @@ header{
     background-color: #637378;
     border-radius: 50%;
     position: absolute;
-    top: 1290px;
+    top: 1340px;
 }
 
 .cta-contact-aboutus{
@@ -227,14 +227,14 @@ header{
     background-color: #637378;
     border-radius: 50%;
     position: absolute;
-    top: 1290px;
+    top: 1340px;
     left: 300px;
 }
 
 .Follow-us-aboutus{
     position: absolute;
     left: 1370px;
-    top: 1350px;
+    top: 1375px;
 }
 
 .cta-aboutus-contact{
@@ -244,7 +244,7 @@ header{
     background-color: #637378;
     border-radius: 50%;
     position: absolute;
-    top: 1250px;
+    top: 1310px;
 }
 
 .cta-contact-contact{
@@ -254,20 +254,18 @@ header{
     background-color: #637378;
     border-radius: 50%;
     position: absolute;
-    top: 1250px;
+    top: 1310px;
     left: 300px;
 }
 
 .Follow-us-contact{
     position: absolute;
     left: 1370px;
-    top: 1300px;
+    top: 1340px;
 }
 
 .Follow-us-products{
-    position: absolute;
-    left: 1370px;
-    top: 2020px;
+
 }
 
 .cta-contact-products{
@@ -276,9 +274,6 @@ header{
     text-decoration: dashed;
     background-color: #637378;
     border-radius: 50%;
-    position: absolute;
-    top: 1985px;
-    left: 300px;
 }
 
 .cta-aboutus-products{
@@ -287,8 +282,7 @@ header{
     text-decoration: dashed;
     background-color: #637378;
     border-radius: 50%;
-    position: absolute;
-    top: 1985px;
+
 }
 
 .instagram{
@@ -383,136 +377,33 @@ footer{
     max-height: 200px;
 }
 
-.Jacket1-png{
+.jacket1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.jacket2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.jacket3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.Jacket-png{
     max-width: 200px;
+    max-height: 300px;
     background-color: #fff;
     border-style: solid;
     border-color: black;
-}
-
-.Jacket1-text{
-    color: black;
-    text-decoration: none;
-}
-
-.Jacket2-png{
-    max-width: 200px;
-    background-color: #fff;
-    border-style: solid;
-    border-color: black;
-    position: absolute;
-    left: 600px;
-    top: 525px;
-}
-
-.Jacket2-text{
-    color: black;
-    text-decoration: none;
-    position: absolute;
-    left: 600px;
-    top: 785px;
-}
-
-.Jacket2-price{
-    position: absolute;
-    left: 600px;
-    top: 835px;
-}
-
-.Jacket3-png{
-    max-width: 200px;
-    background-color: #fff;
-    border-style: solid;
-    border-color: black;
-    position: absolute;
-    top: 530px;
-    right: 30px;
-}
-
-.Jacket3-text{
-    color: black;
-    text-decoration: none;
-    position: absolute;
-    top: 785px;
-    right: 30px;
-}
-
-.Jacket3-price{
-    position: absolute;
-    top: 835px;
-    right: 315px;
-}
-
-.Jacket4-png{
-    max-width: 200px;
-    background-color: #fff;
-    border-style: solid;
-    border-color: black;
-}
-
-.Jacket4-text{
-    color: black;
-    text-decoration: none;
-}
-
-.Jacket5-png{
-    max-width: 200px;
-    background-color: #fff;
-    border-style: solid;
-    border-color: black;
-    position: absolute;
-    top: 960px;
-    left: 600px;
-}
-
-.Jacket5-text{
-    color: black;
-    text-decoration: none;
-    position: absolute;
-    top: 1175px;
-    left: 600px;
-}
-
-.Jacket5-price{
-    position: absolute;
-    top: 1220px;
-    left: 600px;
-}
-
-.Jacket6-png{
-    max-width: 200px;
-    background-color: #fff;
-    border-style: solid;
-    border-color: black;
-    position: absolute;
-    top: 930px;
-    right: 30px;
-}
-
-.Jacket6-text{
-    color: black;
-    text-decoration: none;
-    position: absolute;
-    top: 1175px;
-    right: 30px;
-}
-
-.Jacket6-price{
-    position: absolute;
-    top: 1220px;
-    right: 315px;
-}
-
-.Jacket7-png{
-    max-width: 200px;
-    background-color: #fff;
-    border-style: solid;
-    border-color: black;
-}
-
-.Jacket7-text{
-    color: black;
-    text-decoration: none;
 }
 
 .jacketpage{
@@ -549,14 +440,14 @@ footer{
 .jackets-text{
     position: absolute;
     left: 400px;
-    bottom: 50px;
+    top: 680px;
     font-size: large;
 }
 
 .jackets-price{
     position: absolute;
     left: 400px;
-    bottom: 1px;
+    top: 780px;
     font-size: large;
 }
 
@@ -568,12 +459,18 @@ footer{
     top: 100px;
 }
 
+@font-face {
+    font-family: "Indie Flower";
+    src: url();
+}
+
 .productdetails{
     padding-left: 5rem;
     border-style: solid;
     font-size: large;
     position: relative;
     top: 100px;
+    font-family: "Indie Flower";
 }
 
 input [type="text"] {
@@ -607,7 +504,7 @@ input [type="text"] {
     width: 200px;
     height: 40px;
     position: absolute;
-    top: 1000px;
+    top: 1050px;
     left: 610px;
 }
 
@@ -627,13 +524,13 @@ input [type="text"] {
 .fillin-email{
     position: absolute;
     left: 1100px;
-    top: 620px;
+    top: 670px;
 }
 
 .fillin-fullname{
     position: absolute;
     left: 1100px;
-    top: 720px;
+    top: 780px;
 }
 
 .fillin-contact{
@@ -647,14 +544,14 @@ input [type="text"] {
 
 .fillin-lastname{
     position: absolute;
-    top: 530px;
+    top: 580px;
     left: 600px;
 }
 
 .fillin-phone{
     position: absolute;
     left: 600px;
-    top: 620px
+    top: 680px
 }
 
 .message{
@@ -678,11 +575,6 @@ input [type="text"] {
     border-radius: 50%;
     width: 200px;
     height: 50px;
-}
-
-.jacket{
-    padding: 10px;
-    margin: 10px;
 }
 
 .containerone{
