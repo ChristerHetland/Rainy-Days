@@ -1,5 +1,60 @@
+/*-----header and footer-----*/
 header{
     background-color: #d9d9d9;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.end-line{
+    margin-top: 10rem;
+}
+
+.header-png{
+    width: 100%;
+}
+
+.logo-container{
+    flex: 1 0 800px;
+    text-align: center;
+}
+
+.nav-container{
+    display: flex;
+    gap: 50px;
+}
+
+.cta-nav{
+    color: black;
+    font-size: 25px;
+    text-decoration: dashed;
+    background-color: #637378;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.cart-container{
+    gap: 50px;
+}
+
+.social-media{
+    gap: 10px;
+}
+
+.follow-us{
+
+}
+
+.logo{
+    width: 150px;
+}
+
+.search, .nav-container, .cart-container{
+    align-self: center;
+}
+
+.nav-container, .logo-container, .social-media{
+    align-items: center;
 }
 
 .line{
@@ -9,363 +64,54 @@ header{
     height: 20px;
 }
 
-.search{
-    display: inline;
-    position: absolute;
-    top: 440px;
-    left: 65px;
-}
-
-
 .rainydayslogo-index{
-    position: absolute;
-    bottom: 100px;
-    left: 300px;
+    width: 100%;
+    max-width: 300px;
 }
 
-.cta-aboutus-index{
-    color: black;
-    font-size: 40px;
-    text-decoration: dashed;
-    background-color: #637378;
-    border-radius: 50%;
-    position: absolute;
-    top: 700px;
-    left: 300px;
+.logo-index{
+
 }
 
-.cta-contact-index{
+.cta-index{
     color: black;
-    font-size: 40px;
-    text-decoration: dashed;
-    background-color: #637378;
-    border-radius: 50%;
-    position: absolute;
-    top: 700px;
-    right: 300px;
-}
-
-.cta-products-index{
-    color: black;
-    font-size: 50px;
+    font-size: 35px;
     text-decoration: dashed;
     background-color: #A7AD9C;
     border-radius: 50%;
-    position: absolute;
-    top: 700px;
-    right: 710px;
+    padding: 10px;
+}
+
+.logo-nav{
+    display: flex;
 }
 
 .heart-icon{
-    max-width: 30px;
-    float: right;
-    position: absolute;
-    top: 400px;
-    right: 100px;
+    max-width: 50px;
+    position: relative;
+    bottom: 25px;
+    left: 20px;
 }
 
 .shopping-cart{
-    max-width: 70px;
-    float: right;
-    position: absolute;
-    top: 380px;
-    right: 30px;
+    max-width: 90px;
 }
 
-.header-png{
-    width: 100%;
-}
-
-.cta{
+.social-media{
+    display: flex;
     float: right;
 }
 
-.cta-home{
-    color: black;
-    font-size: 30px;
-    text-decoration: dashed;
-    background-color: #637378;
-    border-radius: 50%;
-    position: absolute;
-    right: 450px;
-    top: 400px;
-}
-
-.cta-products{
-    color: black;
-    font-size: 30px;
-    text-decoration: dashed;
-    background-color: #637378;
-    border-radius: 50%;
-    position: absolute;
-    right: 250px;
-    top: 400px;
-}
-
-.cta-aboutus-jackets{
-    color: black;
-    font-size: 30px;
-    text-decoration: dashed;
-    background-color: #637378;
-    border-radius: 50%;
-    position: absolute;
-    top: 1355px;
-}
-
-.cta-contact-jackets{
-    color: black;
-    font-size: 30px;
-    text-decoration: dashed;
-    background-color: #637378;
-    border-radius: 50%;
-    position: absolute;
-    top: 1355px;
-    left: 300px;
-}
-
-.Follow-us-jackets{
-    position: absolute;
-    left: 1370px;
-    top: 1380px;
-}
-
-.cta-aboutus-cart{
-    color: black;
-    font-size: 30px;
-    text-decoration: dashed;
-    background-color: #637378;
-    border-radius: 50%;
-    position: absolute;
-    top: 1120px;
-}
-
-.cta-contact-cart{
-    color: black;
-    font-size: 30px;
-    text-decoration: dashed;
-    background-color: #637378;
-    border-radius: 50%;
-    position: absolute;
-    top: 1120px;
-    left: 300px;
-}
-
-.Follow-us-cart{
-    position: absolute;
-    left: 1370px;
-    top: 1140px;
-}
-
-.cta-aboutus-checkout{
-    color: black;
-    font-size: 30px;
-    text-decoration: dashed;
-    background-color: #637378;
-    border-radius: 50%;
-    position: absolute;
-    top: 1260px;
-}
-
-.cta-contact-checkout{
-    color: black;
-    font-size: 30px;
-    text-decoration: dashed;
-    background-color: #637378;
-    border-radius: 50%;
-    position: absolute;
-    top: 1260px;
-    left: 300px;
-}
-
-.Follow-us-checkout{
-    position: absolute;
-    left: 1370px;
-    top: 1290px;
-}
-
-.cta-aboutus-checkoutcomplete{
-    color: black;
-    font-size: 30px;
-    text-decoration: dashed;
-    background-color: #637378;
-    border-radius: 50%;
-    position: absolute;
-    top: 1040px;
-}
-
-.cta-contact-checkoutcomplete{
-    color: black;
-    font-size: 30px;
-    text-decoration: dashed;
-    background-color: #637378;
-    border-radius: 50%;
-    position: absolute;
-    top: 1040px;
-    left: 300px;
-}
-
-.Follow-us-checkoutcomplete{
-    position: absolute;
-    left: 1370px;
-    top: 1065px;
-}
-
-.cta-aboutus-aboutus{
-    color: black;
-    font-size: 30px;
-    text-decoration: dashed;
-    background-color: #637378;
-    border-radius: 50%;
-    position: absolute;
-    top: 1340px;
-}
-
-.cta-contact-aboutus{
-    color: black;
-    font-size: 30px;
-    text-decoration: dashed;
-    background-color: #637378;
-    border-radius: 50%;
-    position: absolute;
-    top: 1340px;
-    left: 300px;
-}
-
-.Follow-us-aboutus{
-    position: absolute;
-    left: 1370px;
-    top: 1375px;
-}
-
-.cta-aboutus-contact{
-    color: black;
-    font-size: 30px;
-    text-decoration: dashed;
-    background-color: #637378;
-    border-radius: 50%;
-    position: absolute;
-    top: 1310px;
-}
-
-.cta-contact-contact{
-    color: black;
-    font-size: 30px;
-    text-decoration: dashed;
-    background-color: #637378;
-    border-radius: 50%;
-    position: absolute;
-    top: 1310px;
-    left: 300px;
-}
-
-.Follow-us-contact{
-    position: absolute;
-    left: 1370px;
-    top: 1340px;
-}
-
-.Follow-us-products{
-
-}
-
-.cta-contact-products{
-    color: black;
-    font-size: 30px;
-    text-decoration: dashed;
-    background-color: #637378;
-    border-radius: 50%;
-}
-
-.cta-aboutus-products{
-    color: black;
-    font-size: 30px;
-    text-decoration: dashed;
-    background-color: #637378;
-    border-radius: 50%;
-
-}
-
-.instagram{
+.facebook, .twitter, .instagram{
     max-width: 50px;
-    float: right;
-}
-
-.twitter{
-    max-width: 50px;
-    float: right;
-}
-
-.facebook{
-    max-width: 50px;
-    float: right;
 }
 
 header ul li{
     display: inline-block;
 }
 
-body{
-    background-color: #d9d9d9;
-}
-
-main section ul li{
-    display: inline-block;
-}
-
 footer{
     text-align: center;
-}
-
-.logo-aboutus{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    max-width: 500px;
-    max-height: 500px;
-}
-
-.about-text{
-    color: black;
-    font-size: 30px;
-    text-decoration: none;
-    margin-left: 11%;
-}
-
-.about-headline{
-    color: black;
-    font-size: 40px;
-    margin-left: 21%;
-}
-
-.jackets-body {
-    background-color: #637378;
-}
-
-.thanku{
-    color: black;
-    font-size: 30px;
-    text-align: center;
-    background-color: #fff;
-    text-decoration: dashed;
-    border-style: solid;
-    border-width: 5px;
-    border-color: black;
-    border-radius: 15px;
-    height: 90px;
-}
-
-.shopping{
-    color: black;
-    font-size: 30px;
-    background-color: #a1a1a1;
-    text-decoration: dashed;
-    border-radius: 20%;
-    border-style: solid;
-    border-width: 3px;
-    border-color: black;
-    border-radius: 15px;
-    margin-left: 40%;
 }
 
 .logo{
@@ -377,25 +123,20 @@ footer{
     max-height: 200px;
 }
 
-.jacket1{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-top: 50px;
+/*-----body-----*/
+body{
+    background-color: #d9d9d9;
 }
 
-.jacket2{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-top: 50px;
+/*-----body products-----*/
+.nav-jacket{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
 }
 
-.jacket3{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-top: 50px;
+.product{
+
 }
 
 .Jacket-png{
@@ -406,18 +147,48 @@ footer{
     border-color: black;
 }
 
+.jacket-text{
+    font-family: "Indie Flower";
+}
+
 .jacketpage{
     max-width: 200px;
+}
+
+/*-----body jackets-----*/
+.jackets-body {
+    background-color: #637378;
 }
 
 .Addtocart{
     color: black;
     background-color: #fff;
     text-decoration: dashed;
-    font-size: xx-large;
-    position: relative;
-    left: 350px;
-    top: 100px;
+    font-size: xx-large;   
+    text-align: center;
+    padding: 10px;
+}
+
+.cta-addtocart{
+    
+}
+
+.jackets-text{
+    font-size: large;
+    text-align: center;
+}
+
+.h2productdetails{
+    padding-top: 5rem;
+    padding-right: 10rem;
+    padding-left: 5rem;
+}
+
+.productdetails{
+    padding-left: 5rem;
+    border-style: solid;
+    font-size: large;   
+    font-family: "Indie Flower";
 }
 
 .jacket-option{
@@ -432,105 +203,36 @@ footer{
     background-color: #fff;
     border-style: solid;
     border-color: black;
-    position: relative;
-    top: 100px;
-    left: 60px;
 }
 
-.jackets-text{
-    position: absolute;
-    left: 400px;
-    top: 680px;
-    font-size: large;
+.size{
+    float: right;
+    font-size: x-large;
 }
 
-.jackets-price{
-    position: absolute;
-    left: 400px;
-    top: 780px;
-    font-size: large;
+.quantity{
+    float: right;
+    font-size: x-large;
 }
 
-.h2productdetails{
-    padding-top: 5rem;
-    padding-right: 10rem;
-    padding-left: 5rem;
-    position: relative;
-    top: 100px;
+.color{
+    float: right;
+    font-size: x-large;
 }
 
-@font-face {
-    font-family: "Indie Flower";
-    src: url();
-}
-
-.productdetails{
-    padding-left: 5rem;
-    border-style: solid;
-    font-size: large;
-    position: relative;
-    top: 100px;
-    font-family: "Indie Flower";
-}
-
-input [type="text"] {
-    width: max-content;
-}
-
-.h2-checkout{
+/*-----body contact-----*/
+.cta-submit{
     color: black;
-    margin-left: 50%;
-}
-
-.summary{
-    border-style: solid;
-    width: fit-content;
-    margin-left: 10%;
-    float: left;
-}
-
-.h3-summary{
-    margin-left: 15%;
-}
-
-.cta-placeorder{
-    color: black;
-    background-color: #fff;
-    text-decoration: dashed;
-    text-align: center;   
-    font-size: 30px;
-    border-style: solid;
-    border-radius: 20px;
+    background: #A6A3A3;
+    display: inline;
+    font-size: xx-large;
+    text-align: center;
+    position: absolute;
+    left: 600px;
+    top: 940px;
+    border-radius: 50%;
     width: 200px;
-    height: 40px;
-    position: absolute;
-    top: 1050px;
-    left: 610px;
-}
-
-.fillin{
-    margin-left: 40%;
-    font-size: larger;
-}
-
-.fillin-input{
-    border-style: solid;
-    border-width: 5px;
-    border-color: black;
-    border-radius: 15px;
-    height: 22px;
-}
-
-.fillin-email{
-    position: absolute;
-    left: 1100px;
-    top: 670px;
-}
-
-.fillin-fullname{
-    position: absolute;
-    left: 1100px;
-    top: 780px;
+    height: 50px;
 }
 
 .fillin-contact{
@@ -563,64 +265,69 @@ input [type="text"] {
     width: 500px;
 }
 
-.cta-submit{
+/*-----body checkout-----*/
+.h2-checkout{
     color: black;
-    background: #A6A3A3;
-    display: inline;
-    font-size: xx-large;
-    text-align: center;
-    position: absolute;
-    left: 600px;
-    top: 940px;
-    border-radius: 50%;
+    margin-left: 50%;
+}
+
+.summary{
+    border-style: solid;
+    width: fit-content;
+    margin-left: 10%;
+}
+
+.fillin{
+    font-size: larger;   
+}
+
+.cta-placeorder{
+    color: black;
+    background-color: #fff;
+    text-decoration: dashed;
+    text-align: center;  
+    padding: 10px; 
+    font-size: 30px;
+    border-style: solid;
+    border-radius: 20px;
     width: 200px;
-    height: 50px;
+    height: 40px;
 }
 
-.containerone{
-    display: flex;
-    flex-direction:  row;
+/*-----body checkout complete-----*/
+.thanku{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    background-color: #fff;
+    text-decoration: dashed;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 15px;
+    height: 90px;
 }
 
-.containertwo{
-    display: flex;
-    flex-direction:  row;
+.shopping{
+    color: black;
+    font-size: 30px;
+    background-color: #a1a1a1;
+    text-decoration: dashed;
+    border-radius: 20%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 15px;
+    margin-left: 40%;
 }
 
-.containerthree{
-    display: flex;
-    flex-direction:  row;
-}
-
-.size{
-    float: right;
-    font-size: x-large;
-}
-
-.quantity{
-    float: right;
-    font-size: x-large;
-}
-
-.color{
-    float: right;
-    font-size: x-large;
-}
-
-.end-line{
-    margin-top: 10rem;
-}
-
+/*------body cart------*/
 .cart-middle{
     border: solid;
-    position: relative;
-    top: 100px;
+    display: flex;
 }
 
 .cart-text{
-    position: absolute;
-    left: 250px;
-    bottom: 100px;
     font-size: large;
 }
 
@@ -631,15 +338,11 @@ input [type="text"] {
     font-size: 40px;
     border-style: groove;
     border-color: black;
-    
 }
 
 .cart-right{
     font-size: x-large;
-    margin-left: 40%;
-    position: absolute;
-    left: 500px;
-    bottom: 70px;
+    float: right;
 }
 
 .cart-jacket1-png{
@@ -647,37 +350,43 @@ input [type="text"] {
     background-color: #fff;
     border-style: solid;
     border-color: black;
-    position: relative;
-    left: 20px;
-    top: px;
 }
 
-.search{
-    position: absolute;
-    top: 440px;
-    left: 65px;
+/*-----body about us-----*/
+.logo-aboutus{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 500px;
+    max-height: 500px;
 }
 
-.hamburger1{
-    width: 40px;
-    height: 8px;
-    background-color: black;
-    position: absolute;
-    top: 429px;
+.about-text{
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 11%;
 }
 
-.hamburger2{
-    width: 40px;
-    height: 6px;
-    background-color: black;
-    position: absolute;
-    top: 440px;
+.about-headline{
+    color: black;
+    font-size: 40px;
+    margin-left: 21%;
 }
 
-.hamburger3{
-    width: 40px;
-    height: 4px;
-    background-color: black;
-    position: absolute;
-    top: 450px;
+input [type="text"] {
+    width: max-content;
+}
+
+.h3-summary{
+    margin-left: 15%;
+}
+
+.fillin-input{
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 15px;
+    height: 22px;
 }

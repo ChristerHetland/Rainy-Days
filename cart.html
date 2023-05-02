@@ -6,63 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="get the best jackets for outdoor activities">
     <title>Rainy Days  |  Cart</title>
-    <h1>Cart</h1>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 </head>
 <body>
+    <h1>Cart</h1>
     <header>
-        <section>
-            <hr class="hamburger1">
-            <hr class="hamburger2">
-            <hr class="hamburger3">
-        </section>
-        <section> 
-            <form class="search">
-                <input type="search" class="query" name="q"
-                placeholder="Search">
-                <button>Search</button>
-            </form>
-        </section>
-        <img src="images/Header1.jpg" alt="Header" class="header-png">
-        <img src="images/RainyDays_Logo.png" alt="Rainydayslogo" class="logo"/>        
-        <img class="shopping-cart" src="images/shopping-cart.png" alt="shopping-cart">
-        <img class="heart-icon" src="images/heart-icon.png" alt="heart-icon">
-        <ul class="cta">
-            <li><a href="index.html" class="cta-home">Home</a></li>
-            <li><a href="products.html" class="cta-products">Products</a></li>
-        </ul>
+            <img src="images/Header1.jpg" alt="Header" class="header-png">
+        <div class="search">
+            <input type="text">
+            <button>Search</button>
+        </div>
+        <figure class="logo-container">
+            <img src="images/RainyDays_Logo.png" alt="Rainydayslogo" class="logo">
+        </figure>
+        <nav class="nav-container">
+           <a href="index.html" class="cta-nav">Home</a>
+           <a href="products.html" class="cta-nav">Products</a>
+        </nav>
+        <div class="cart-container">
+           <img class="heart-icon" src="images/heart-icon.png" alt="heart-icon">
+           <a href="cart.html"> <img class="shopping-cart" src="images/shopping-cart.png" alt="shopping-cart"></a>
+        </div>
     </header>
     <main>
         <hr class="line">
         <section class="cart-middle">
+            <figure>
                 <img src="images/RainyDays_Jacket1.png" class="cart-jacket1-png" alt="Jacket1">
+            </figure>
             <div class="cart-text">
                 <p>Lorem ipsum dolor sit amet consectetur.</p>
                 <p>Aliquet mollis nisi ultrices faucibus at pharetra et varius.</p>
                 <h2>699,-</h2>
             </div>
-            <div class="cart-right" >
+            <div class="cart-right">
                 <p>TOTAL 699,-</p>
                 <p>Expected delivery 3-5 business days.</p>
                 <a class="cta-checkout" href="checkout.html">Checkout</a>
             </div>
         </section>
-        <section class="end-line">
-            <hr class="line">
-            <img src="images/RainyDays_Logo.png" alt="Rainydayslogo" class="logo"/>
-        <div>
-            <h1 class="Follow-us-cart">Follow us</h1>
-            <img src="images/facebook.png" alt="Facebook" class="facebook">
-            <img src="images/twitter.png" alt="Twitter" class="twitter">
-            <img src="images/instagram.png" alt="Instagram" class="instagram">     
-        </div>
-        <ul>
-            <li><a href="aboutus.html" class="cta-aboutus-cart">About us</a></li>
-            <li><a href="contact.html" class="cta-contact-cart">Contact</a></li>
-       </ul>
-        </section>
         </main>
-        <footer>Copyright &copy;</footer>
+        <footer>
+            <section class="end-line">
+                <hr class="line">
+            <nav class="nav-footer">
+                <a href="aboutus.html" class="cta-nav">About us</a>
+                <a href="contact.html" class="cta-nav">Contact</a>
+            </nav>
+            <figure class="logo-footer">
+                <img src="images/RainyDays_Logo.png" alt="Rainydayslogo" class="logo"/>
+            </figure>
+            <div class="social-media">
+                <h1 class="Follow-us">Follow us<h1>
+                <img src="images/facebook.png" alt="Facebook" class="facebook">
+                <img src="images/twitter.png" alt="Twitter" class="twitter">
+                <img src="images/instagram.png" alt="Instagram" class="instagram">
+            </div> 
+             Copyright &copy;    
+            </section>
+        </footer>
     </main>
 </body>
 </html>
