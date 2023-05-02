@@ -106,10 +106,6 @@ header{
     max-width: 50px;
 }
 
-header ul li{
-    display: inline-block;
-}
-
 footer{
     text-align: center;
 }
@@ -140,8 +136,8 @@ body{
 }
 
 .Jacket-png{
-    max-width: 200px;
-    max-height: 300px;
+    width: 200px;
+    height: 200px;
     background-color: #fff;
     border-style: solid;
     border-color: black;
