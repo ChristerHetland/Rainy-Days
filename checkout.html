@@ -12,7 +12,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Checkout</h1>
     <header>
             <img src="images/Header1.jpg" alt="Header" class="header-png">
         <div class="search">
@@ -23,8 +22,8 @@
             <img src="images/RainyDays_Logo.png" alt="Rainydayslogo" class="logo">
         </figure>
         <nav class="nav-container">
-           <a href="index.html" class="cta-nav-header">Home</a>
-           <a href="products.html" class="cta-nav-header">Products</a>
+           <a href="index.html" class="cta-nav">Home</a>
+           <a href="products.html" class="cta-nav">Products</a>
         </nav>
         <div class="cart-container">
            <img class="heart-icon" src="images/heart-icon.png" alt="heart-icon">
@@ -33,8 +32,10 @@
     </header>
     <main>
         <hr class="line">
+    <section>
         <h2 class="h2-checkout">Checkout</h2>
-        <section class="summary">
+        <div class="div-checkout">
+        <div class="summary">
             <h3>Summary</h3>
         <div>
         <figure>
@@ -45,51 +46,57 @@
             <p>Qty: 1</p>
             <p>Price: 699,-</p>
         </div>
-        </section>
-        <section class="fillin">
+        </div>
+        <div class="fillin">
             <form class="fillin-adress">
                 <h4>Adress:</h4>
                 <input class="fillin-input" type="text" name="adress">
-            </form>
-            <form class="fillin-email">
-                <h4>Email:</h4>
-                <input class="fillin-input" type="text" name="email">
             </form>
             <form class="fillin-phonenumber">
                 <h4>Phone number:</h4>
                 <input class="fillin-input" type="text" name="phone-number">
             </form>
-            <form class="fillin-fullname">
-                <h4>Full Name:</h4>
-                <input class="fillin-input" type="text" name="full-name">
-            </form>
-        <section>
             <form class="fillin-delivery">
                 <h4>Delivery Adress:</h4>
                 <input class="fillin-input" type="text" name="delivery-adress">
             </form>
-        </section>
-        <div>
-            <a href="checkout-complete.html" class="cta-placeorder">Place order</a>
+        </div>
+        <div class="fillin-right">
+            <form class="fillin-email">
+                <h4>Email:</h4>
+                <input class="fillin-input" type="text" name="email">
+            </form>
+            <form class="fillin-fullname">
+                <h4>Full Name:</h4>
+                <input class="fillin-input" type="text" name="full-name">
+            </form>
+        </div>
+        </div>
+    </section>
+        <div class="div-placeorder">
+            <a class="cta-placeorder" href="checkout-complete.html">Place order</a>
         </div>
         <footer>
             <section class="end-line">
                 <hr class="line">
-            <nav class="nav-footer">
-                <a href="aboutus.html" class="cta-nav">About us</a>
-                <a href="contact.html" class="cta-nav">Contact</a>
-            </nav>
-            <figure class="logo-footer">
-                <img src="images/RainyDays_Logo.png" alt="Rainydayslogo" class="logo"/>
-            </figure>
+            <div class="footer">
+               <nav class="nav-container">
+                   <a href="aboutus.html" class="cta-nav">About us</a>
+                   <a href="contact.html" class="cta-nav">Contact</a>
+                </nav>
+                <figure class="logo-footer">
+                    <img src="images/RainyDays_Logo.png" alt="Rainydayslogo" class="logo-"/>
+                 </figure>
+            </div>
             <div class="social-media">
-                <h1 class="Follow-us">Follow us<h1>
-                <img src="images/facebook.png" alt="Facebook" class="facebook">
-                <img src="images/twitter.png" alt="Twitter" class="twitter">
-                <img src="images/instagram.png" alt="Instagram" class="instagram">
+                   <h2>Follow us</h2>
+                   <img src="images/facebook.png" alt="Facebook" class="facebook">
+                   <img src="images/twitter.png" alt="Twitter" class="twitter">
+                   <img src="images/instagram.png" alt="Instagram" class="instagram">
             </div> 
-             Copyright &copy;    
-            </section>
+            <h3 class="copyright">
+                Copyright &copy; 
+            </h3>   
         </footer>
     </main>
 </body>

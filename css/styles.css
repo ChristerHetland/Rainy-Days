@@ -19,6 +19,11 @@ header{
     text-align: center;
 }
 
+.logo-footer{
+    flex: 0 1 800px;
+    text-align: center;
+}
+
 .nav-container{
     display: flex;
     gap: 50px;
@@ -37,24 +42,19 @@ header{
     gap: 50px;
 }
 
+.footer{
+    display: flex;
+    flex-direction: row ;
+}
+
 .social-media{
     gap: 10px;
-}
-
-.follow-us{
-
-}
-
-.logo{
-    width: 150px;
+    float: right;
+    margin-right: 50px;
 }
 
 .search, .nav-container, .cart-container{
     align-self: center;
-}
-
-.nav-container, .logo-container, .social-media{
-    align-items: center;
 }
 
 .line{
@@ -69,10 +69,6 @@ header{
     max-width: 300px;
 }
 
-.logo-index{
-
-}
-
 .cta-index{
     color: black;
     font-size: 35px;
@@ -80,10 +76,6 @@ header{
     background-color: #A7AD9C;
     border-radius: 50%;
     padding: 10px;
-}
-
-.logo-nav{
-    display: flex;
 }
 
 .heart-icon{
@@ -97,17 +89,8 @@ header{
     max-width: 90px;
 }
 
-.social-media{
-    display: flex;
-    float: right;
-}
-
 .facebook, .twitter, .instagram{
     max-width: 50px;
-}
-
-footer{
-    text-align: center;
 }
 
 .logo{
@@ -119,6 +102,15 @@ footer{
     max-height: 200px;
 }
 
+.logo-{
+    max-width: 300px; 
+    max-height: 200px;
+}
+
+.copyright{
+    text-align: center;
+}
+
 /*-----body-----*/
 body{
     background-color: #d9d9d9;
@@ -126,9 +118,10 @@ body{
 
 /*-----body products-----*/
 .nav-jacket{
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1em;
+    gap: 4em;
 }
 
 .product{
@@ -161,28 +154,43 @@ body{
     background-color: #fff;
     text-decoration: dashed;
     font-size: xx-large;   
-    text-align: center;
     padding: 10px;
 }
 
-.cta-addtocart{
-    
+.div-addtocart{
+    text-align: center;
+}
+
+.div-jacket-text{
+    display: flex;
+    flex-direction: row;
 }
 
 .jackets-text{
-    font-size: large;
+    font-size: larger;
     text-align: center;
+    font-family: "Indie Flower";
+}
+
+.jackets-price{
+    font-size: larger;
+    text-align: center;
+    font-family: "Indie Flower";
 }
 
 .h2productdetails{
     padding-top: 5rem;
     padding-right: 10rem;
     padding-left: 5rem;
+    margin-left: 20px;
 }
 
 .productdetails{
     padding-left: 5rem;
     border-style: solid;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
     font-size: large;   
     font-family: "Indie Flower";
 }
@@ -199,36 +207,33 @@ body{
     background-color: #fff;
     border-style: solid;
     border-color: black;
+    margin-top: px;
+    margin-left: 50px;
 }
 
-.size{
+.size, .color, .quantity{
     float: right;
     font-size: x-large;
-}
-
-.quantity{
-    float: right;
-    font-size: x-large;
-}
-
-.color{
-    float: right;
-    font-size: x-large;
+    margin-right: 100px;
 }
 
 /*-----body contact-----*/
+.div-submit{
+    display: flex;
+    gap: 5em;
+}
+
 .cta-submit{
     color: black;
     background: #A6A3A3;
-    display: inline;
     font-size: xx-large;
     text-align: center;
-    position: absolute;
-    left: 600px;
-    top: 940px;
     border-radius: 50%;
     width: 200px;
     height: 50px;
+    padding: 10px;
+    position: relative;
+    top: 190px;
 }
 
 .fillin-contact{
@@ -240,16 +245,14 @@ body{
     width: 250px;
 }
 
-.fillin-lastname{
-    position: absolute;
-    top: 580px;
-    left: 600px;
+.contact-left{
+    display: flex;
+    gap: 10em;
 }
 
-.fillin-phone{
-    position: absolute;
-    left: 600px;
-    top: 680px
+.contact-right{
+    display: flex;
+    gap: 10em;
 }
 
 .message{
@@ -262,6 +265,11 @@ body{
 }
 
 /*-----body checkout-----*/
+.div-checkout{
+    display: flex;
+    gap: 50px;
+}
+
 .h2-checkout{
     color: black;
     margin-left: 50%;
@@ -273,20 +281,26 @@ body{
     margin-left: 10%;
 }
 
-.fillin{
+.fillin, .fillin-right{
+    display: flex;
+    flex-direction: column;
     font-size: larger;   
+    gap: 20px;
+}
+
+.div-placeorder{
+    text-align: center;
 }
 
 .cta-placeorder{
     color: black;
     background-color: #fff;
-    text-decoration: dashed;
-    text-align: center;  
+    text-decoration: dashed; 
     padding: 10px; 
     font-size: 30px;
     border-style: solid;
     border-radius: 20px;
-    width: 200px;
+    width: 800px;
     height: 40px;
 }
 
@@ -298,10 +312,13 @@ body{
     background-color: #fff;
     text-decoration: dashed;
     border-style: solid;
-    border-width: 5px;
+    border-width: 2px;
     border-color: black;
-    border-radius: 15px;
+    border-radius: 30px;
     height: 90px;
+    padding: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 .shopping{
@@ -315,12 +332,15 @@ body{
     border-color: black;
     border-radius: 15px;
     margin-left: 40%;
+    padding: 20px;
 }
 
 /*------body cart------*/
 .cart-middle{
-    border: solid;
     display: flex;
+    border: solid;
+    gap: 200px;
+    font-family: "Indie Flower";
 }
 
 .cart-text{
@@ -338,7 +358,7 @@ body{
 
 .cart-right{
     font-size: x-large;
-    float: right;
+    position: relative;
 }
 
 .cart-jacket1-png{
