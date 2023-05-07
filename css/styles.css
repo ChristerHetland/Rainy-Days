@@ -14,11 +14,7 @@ header{
 
 .nav-container-footer{
     display: flex;
-    gap: 100px;
-}
-
-.header-png{
-    width: 100%;
+    gap: 50px;
 }
 
 .logo-container{
@@ -66,20 +62,6 @@ header{
     align-self: center;
 }
 
-.rainydayslogo-index{
-    width: 100%;
-    max-width: 300px;
-}
-
-.cta-index{
-    color: black;
-    font-size: 35px;
-    text-decoration: dashed;
-    background-color: #A7AD9C;
-    border-radius: 50%;
-    padding: 10px;
-}
-
 .heart-icon{
     max-width: 50px;
     position: relative;
@@ -111,6 +93,32 @@ header{
 
 .copyright{
     text-align: center;
+}
+
+/*-----Index-----*/
+
+.rainydayslogo-index{
+    width: 100%;
+    max-width: 400px;
+    }
+
+.nav-index{
+    display: flex;
+    gap: 100px;
+}
+
+.cta-index{
+    color: black;
+    font-size: 35px;
+    text-decoration: dashed;
+    background-color: #A7AD9C;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.header-png{
+    width: 100%;
+    height: fit-content;
 }
 
 /*-----body-----*/
