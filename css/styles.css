@@ -97,14 +97,25 @@ header{
 
 /*-----Index-----*/
 
+.index-div{
+    background-image: url("/images/header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 740px;
+}
+
 .rainydayslogo-index{
     width: 100%;
     max-width: 400px;
-    }
+    text-align: center;
+}
 
 .nav-index{
     display: flex;
+    flex-direction: column;
     gap: 100px;
+    text-align: center;
 }
 
 .cta-index{
@@ -114,6 +125,12 @@ header{
     background-color: #A7AD9C;
     border-radius: 50%;
     padding: 10px;
+}
+
+.cta-index-div{
+    display: flex;
+    gap: 150px;
+    margin-left: 25%;
 }
 
 .header-png{
@@ -191,7 +208,6 @@ body{
 
 .jackets-price{
     font-size: larger;
-    text-align: center;
     font-family: "Indie Flower";
 }
 
@@ -250,7 +266,7 @@ body{
     height: 50px;
     padding: 10px;
     position: relative;
-    top: 190px;
+    top: 155px;
 }
 
 .fillin-contact{
@@ -331,6 +347,11 @@ body{
 }
 
 /*-----body checkout complete-----*/
+.checkout-complete-section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 .thanku{
     color: black;
     font-size: 30px;
@@ -368,6 +389,8 @@ body{
     border: solid;
     gap: 200px;
     font-family: "Indie Flower";
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .cart-text{
