@@ -6,8 +6,10 @@ header{
     flex-wrap: wrap;
 }
 
-.end-line{
-    margin-top: 10rem;
+.footer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .header-png{
@@ -21,7 +23,8 @@ header{
 
 .logo-footer{
     flex: 0 1 800px;
-    text-align: center;
+    text-align:
+    margin: ;
 }
 
 .nav-container{
@@ -42,11 +45,6 @@ header{
     gap: 50px;
 }
 
-.footer{
-    display: flex;
-    flex-direction: row ;
-}
-
 .social-media{
     gap: 10px;
     float: right;
@@ -54,6 +52,10 @@ header{
 }
 
 .search, .nav-container, .cart-container{
+    align-self: center;
+}
+
+.nav-container-footer, .logo-footer, .social-media{
     align-self: center;
 }
 
